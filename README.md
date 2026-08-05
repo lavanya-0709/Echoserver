@@ -31,7 +31,7 @@ PORT = 65432  # The port used by the server
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((HOST, PORT))
-    s.sendall(b"Hello, world")
+    s.sendall(b"Lavanya S- 212223230112,0508.2026")
     data = s.recv(1024)
 
 
@@ -61,7 +61,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 
 ```
 ## OUTPUT:
-<img width="1915" height="312" alt="image" src="https://github.com/user-attachments/assets/9e9ce4d0-b325-45ab-87a2-d8ef076a898a" />
+<img width="1881" height="538" alt="image" src="https://github.com/user-attachments/assets/f4358674-54e4-4946-aa84-9ef34f304d0e" />
 
 ## RESULT:
 The program is executed successfully
